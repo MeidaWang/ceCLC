@@ -2,7 +2,7 @@
 ### Data simulation 
 
 #---------- -------------------------------------------------------------
-# Generate data under null hypothesis, all phenotypes are quantitative. #
+# Generate data under null hypothesis. All phenotypes are quantitative. #
 # K: represents the number of phenotypes.                               #
 # model: represents the model which is described in the paper.          #
 # N: represents sample size.                                            #
@@ -54,7 +54,7 @@ ceCLC_generate_typeI=function(K,model,N)
 
 
 #---------- --------------------------------------------------------------
-# Generate data under null hypothesis, half phenotypes are quantitative, #
+# Generate data under null hypothesis. Half phenotypes are quantitative, #
 # the other half phenotypes are qualitative(binary).                     #
 #-------------------------------------------------------------------------
 ceCLC_generate_typeI_quan_qual=function(K,model,N)
@@ -136,7 +136,7 @@ ceCLC_generate_typeI_quan_qual=function(K,model,N)
 
 
 #---------- --------------------------------------------------------------------
-# Generate data under alternative hypothesis, all phenotypes are quantitative. #
+# Generate data under alternative hypothesis. All phenotypes are quantitative. #
 # K: representss the number of phenotypes.                                     #
 # N: represents  sample size.                                                  #
 # model: represents the model which is described in the paper.                 #
@@ -194,7 +194,7 @@ ceCLC_generate_data=function(K,model,N,beta1)
 
 
 #---------- ---------------------------------------------------------------------
-# Generate data under alternative hypothesis, half phenotypes are quantitative, #
+# Generate data under alternative hypothesis. Half phenotypes are quantitative, #
 # the other half phenotypes are qualitative(binary).                            #
 #--------------------------------------------------------------------------------
 ceCLC_generate_data_quan_qual=function(K,model,N,beta1)
