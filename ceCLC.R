@@ -1,11 +1,11 @@
 
-#-----------------------------------------------------------------
-#' In the ceCLC function,
-#' x: represents the genotype (number of minor alleles) vector.          
-#' y: represents the trait value matrix. Each row represents             
-#'    an individual and each column represents a phenotype.              
-#' L0: represents the number of clusters.                                
-#-----------------------------------------------------------------
+#------------------------------------------------------------------
+#' In the ceCLC function,                                         #
+#' x: represents the genotype (number of minor alleles) vector.   #       
+#' y: represents the trait value matrix. Each row represents      #       
+#'    an individual and each column represents a phenotype.       #        
+#' L0: represents the number of clusters.                         #        
+#------------------------------------------------------------------
 
 ###score test####################################
 score=function(x,y)
@@ -39,5 +39,4 @@ ceCLC=function(x,y,L0)
   #pvalue=0.5-atan(ACAT)/pi
   return(pvalue)
 }
-
 
